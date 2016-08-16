@@ -42,13 +42,15 @@ public class MainActivity extends AppCompatActivity {
         iconTextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(MainActivity.this, IconTextActivity.class);
+                MainActivity.this.startActivity(intent);
             }
         });
         iconButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(MainActivity.this, IconActivity.class);
+                MainActivity.this.startActivity(intent);
             }
         });
         customButton.setOnClickListener(new View.OnClickListener() {

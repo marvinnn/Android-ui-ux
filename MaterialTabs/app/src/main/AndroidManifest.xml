@@ -16,7 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".FixedActivity" />
-        <activity android:name=".ScrollableActivity"></activity>
+        <activity android:name=".ScrollableActivity" />
+        <activity android:name=".IconTextActivity" />
+        <activity android:name=".IconActivity"></activity>
     </application>
 
 </manifest>
